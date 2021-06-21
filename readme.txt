@@ -6,3 +6,7 @@ add three row.
 add four row.
 add sex row.
 add seven row.
+<<<<<<< HEAD
+=======
+add eight row.
+>>>>>>> fb_add
