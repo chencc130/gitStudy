@@ -29,11 +29,10 @@ function fileDisplay(filePath){
                                 console.log(filePath);
                                 newName = filename.slice(filename.indexOf('day'), filename.indexOf('Av')) + '.mp4';
                                 console.log(newName);
-                                let destPath = path.resolve('../../../softwares/Download/Nodejs/Nodejs') + '/' + newName;
                                 console.log(++count);
                                 console.log(destPath);
                                 // 通过重命名移动文件到根目录
-                                fs.rename(filedir, destPath, function (err) {
+                                fs.rename(filedir, filePath, function (err) {
                                     if (err) { console.log(err); }
                                 });
                             }
