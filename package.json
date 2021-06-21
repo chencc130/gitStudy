@@ -1,0 +1,10 @@
+{
+  "name": "inner.api.qll.com",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node bin/www"
+  },
+  "dependencies": {
+    "moment": "^2.17.1"
+  }
+}
